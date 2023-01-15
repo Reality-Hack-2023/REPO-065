@@ -1,0 +1,4 @@
+*.~undo-tree~
+*.swp
+/.esphome/
+/secrets.yaml

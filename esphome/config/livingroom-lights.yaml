@@ -1,0 +1,23 @@
+esphome:
+  name: goosehome-living-room-lights
+  platform: esp32
+  board: esp32dev
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "mrgoose"
+
+ota:
+  password: "mrgoose"
+
+wifi:
+  ssid: "goose_esp"
+  password: "poo12345"
+    
+switch:
+  - platform: gpio
+    name: "Light 1"
+    pin: 5
